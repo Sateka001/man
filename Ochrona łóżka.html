@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Poradnik</title>
+        <link rel="stylesheet" href="Ochrona.css">
+        <link href="http://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+           
+        
+        <link href="http://fonts.cdnfonts.com/css/daggersquare" rel="stylesheet">
+        
+
+
+        
+        
+        
+            <!--Navbar-->
+
+            <div id="navbar"></div>
+
+            <div id="nav" class="navbar-expand-lg">
+    
+                <div class="container">
+                    <a class="navbar-brand" href=""><img src="./assety/crafting.png" id="yes" width="60px" height="60px" alt="Kurwa" onmouseenter="redstoneblock()" onmouseleave="crafting()"></a>
+                </div>
+    
+    
+    
+                <div class="collapse navbar-collapse" id="main-navigation">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="container-xxl fw-bold text-secondary">
+                                <a href="#" class="nav-link yes1"><ion-icon name="log-in-outline" style="font-size:20px ;"></ion-icon>Rejestracja</a>  
+                                <a href="#" class="nav-link yes2"><ion-icon name="lock-open-outline" style="font-size:18px;"></ion-icon>Logowanie</a>  
+                            
+
+                        </li>
+           
+                    </ul>
+                </div>
+            </div>
+        </head>
+
+            <body>
+                <div class="Początek">
+                <h1 style=" margin-left: 45%;top: 30%; position: absolute;" class="czas">Czas na Lozko!</h1>
+                </div>  
+            <div class="Tekst">
+                <div class="yes"><h1>Ochrona Lózka</h1></div>
+                <p>Czas zacząć zrozumienie najważniejszej rzeczy w bed wars, czyli łózka i jak je bronić. Łóżko jest twoim głównym celem obrony oraz ataku. Czemu?
+                    To proste. Kiedy masz łóżko możesz umierać ile chcesz ile wlezie a i tak dalej pozostaniesz na arenie. Niestaty jeżeli przeciwnik zniszczył twoje łóżko pozostało ci ostatnie życie, 
+                    po śmierci odrazu przegrywasz i idziesz do kolejnej gry. Dlatego obrona łóżka jest ważna ale także ważny jest atak. Musisz pamiętać że siedząc na wyspie z obudowanym łóżkiem w formie klocka
+                     gry nie wygrasz. Póki co jeśli nie miałeś doświadczenia dobrego z minecraftem oraz z mini gierkami polecałbym jednak siedzenie na wyspie i obronę. Najlepiej gdybyś
+                      grał bądź grała ze znajomymi którzy mają jakiekolwiek doświadczenie.
+                </p>
+                <p>
+                    Po tym jak nabrałeś doświadczenia możesz przejść do takiego trybu semi czyli w połowie defensywnie w połowie będziesz ofensywnie.
+                    W takiej formacji będziesz mieć dość sporą obudowe lecz mniejszą niż jakbyś grał na defensywnym trybie ale będziesz częściej wychodził po
+                    surowce i będziesz jakby to ująć bardziej bitny.
+
+                </p>
+                
+                <p> 
+                    Ostatnim takim trybem jest taki tryb bardzo ofensywny. Jest to dla zaawansowanych graczy bed wars czyli wsm można nazwać spoceńców.
+                    Wystarczy im jedna warstwa wełny na łóżku, robią speedbridge do przeciwnika i zabijają go w 5 sekund. I tak powtarzają robiąc koło po mapie
+                    do kiedy nie umrą.
+                </p>
+                <h1>Obudowywanie lózka</h1>
+                <p>Łóżko można zabudować na mase sposobów lecz jeśli udało ci się zdobyć 8 emeraldów oraz nie jestes pewny czy uda ci się obronić
+                    możesz kupić obsydian który naprawde pomaga , ponieważ nikt normalnie nie kupuje diamentowego kilofa jeśli nie ma potrzeby
+                </p>
+                <img src="assety\obs.png" style="width:50vw; height: 50vh;">
+                <p>Na sam początek jednak polecam zbudować endstone, a zamiast obsydianu clay bądź szkło(zależy od serwera) który ma włąsciwości eksplozjo odporne a na to drewno</p>
+                <img src="assety\drewno.png" style="width:50vw; height: 50vh;"alt="">
+                <p>Jeżeli grasz defensywnie można dodać na to jeszcze sandstone który jest tani więc nie będzie problemu i na sam czubek żeby jeszcze bardziej zdenerwowac przeciwnika wełne
+                <img src="assety\dalej.png" style="width:50vw; height: 50vh;"alt="">
+                </p>
+                <div class="guziki">
+                <a href="index.html">Powrót</a>
+                <a href="most.html" >Kolejny</a>
+                </div>
+            </div>
+
+            <!--Tła-->
+            <div class="img"></div>
+  
+
+
+            </body>
+            
+            
+                    <!--Kiedy więcej niż 40 px zmienia sie przezroczystość-->
+                    <script>
+            
+
+                        window.onscroll = function() {scrollFunction()};
+                        document.getElementById("navbar").style.transition="0.5s";
+                        function scrollFunction() {
+                          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                            document.getElementById("navbar").style.backgroundColor = "black";
+                            document.getElementById("navbar").style.opacity = "0.6";
+            
+                          } else {
+                            document.getElementById("navbar").style.backgroundColor="black";
+                            document.getElementById("navbar").style.opacity="0";
+                            
+                          }
+                        }
+                        </script>
+
+                    <script>
+                        function crafting()
+                        {
+                            document.getElementById('yes').src = "./assety/crafting.png";
+                        }
+                        function redstoneblock()
+                        {
+                            document.getElementById('yes').src = "./assety/redstoneblock.png";
+                        }
+                    </script> 
+
+                    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>

@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+}
+body
+{
+height: 2000px;
+
+}
+.img {
+    background: #000000;
+    background-image: url('./assety/tło2.3.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size:contain;
+    background-position:center;
+    z-index: -5;
+
+
+}
+
+#nav
+{
+    color: white;
+    position: fixed;
+    z-index: 11;
+}
+
+#navbar
+{
+    z-index: 10;
+    color: white;
+    position: fixed;
+    margin-top: 0px;
+    height:70px ;
+    width: 100%;
+}
+
+.container-xxl 
+{
+
+    
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    top: 10px;  
+    z-index:-1;
+    max-width: 2520px !important;
+
+}
+
+    
+
+
+.container-xxl a
+{
+
+    font-family: 'Raleway', sans-serif; 
+    transition: 0.5s;
+    color: rgb(207, 207, 207);
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+ion-icon
+{
+    top: 2px;
+    position: relative;
+    margin-right:2px ;
+}
+
+
+.container-xxl a:hover 
+{
+    color: rgb(125, 160, 255);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.container img
+{
+    margin: 7px;
+    margin-left: 10px;
+    transition: 0.5s;
+    z-index:2;
+
+}
+.container img:hover
+{
+    cursor: pointer;
+}
+
+#baner
+{
+    width: 100%;
+    height:540px;
+    z-index:0;
+}
+
+
+.Tekst
+{
+    margin-left:100px ;
+    position: absolute;
+    top: 50%;
+    max-width: 100%;
+    font-size:2vw;
+    color: white;
+    background: linear-gradient(
+        to right, 
+        rgb(16, 219, 255), 
+        rgb(46, 60, 255)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+}
+
+.Tekst h1
+{
+    font-family: 'DAGGERSQUARE', sans-serif;
+
+}
+
+
+@media (min-width:1600px  ) {
+
+    .imgBox textarea
+    {
+        position: absolute;
+        top: 0;
+        left:0;
+        width: 900px;
+        height: 500px;
+    
+        background:transparent;
+        max-width: 100%;
+        resize: none;
+        outline:none;
+        border: none;
+        
+        background: url(texture_items.png);
+        
+    }
+  }
+  @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+.Początek{
+
+
+
+
+  text-shadow: 0 0 5px #1d221f, 0 0 15px #c3d425, 0 0 20px #c3d425, 0 0 40px #c3d425, 0 0 60px #c3d425, 0 0 10px #c3d425, 0 0 98px #c3d425;
+
+
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+
+}
+
+.Początek {
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+
+    
+
+    font-size: 5em;
+
+
+}
+  
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow: 0 0 5px #1d221f, 0 0 15px #d45725, 0 0 20px #c3d425, 0 0 40px #c3d425, 0 0 60px #c3d425, 0 0 10px #c3d425, 0 0 98px #c3d425;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow: 0 0 5px #1d221f, 0 0 15px #c3d425, 0 0 20px #c3d425, 0 0 40px #c3d425, 0 0 60px #c3d425, 0 0 10px #c3d425, 0 0 98px #c3d425;
+    color: #fff6a9;
+  }
+}
+
+
+.guziki a
+{
+    margin-left: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+
+}

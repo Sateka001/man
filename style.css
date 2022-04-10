@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+}
+body
+{
+height: 4000px;
+}
+.img {
+    background: #000000;
+    background-image: url('./assety/tło2.3.png');
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size:contain;
+    background-position:center;
+    z-index: -5;
+
+
+}
+
+#nav
+{
+    color: white;
+    position: fixed;
+    z-index: 11;
+}
+
+#navbar
+{
+    z-index: 10;
+    color: white;
+    position: fixed;
+    margin-top: 0px;
+    height:70px ;
+    width: 100%;
+}
+
+.container-xxl 
+{
+
+    width: 200px;
+    display: flex;
+    position: fixed;
+    justify-content: right;
+    top: 10px;  
+    z-index:-1;
+    max-width: 2520px !important;
+
+}
+
+    
+
+
+.container-xxl a
+{
+
+    font-family: 'Raleway', sans-serif; 
+    transition: 0.5s;
+    color: rgb(207, 207, 207);
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+ion-icon
+{
+    top: 2px;
+    position: relative;
+    margin-right:2px ;
+}
+
+
+.container-xxl a:hover 
+{
+    color: rgb(125, 160, 255);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+
+.container img
+{
+    margin: 7px;
+    margin-left: 10px;
+    transition: 0.5s;
+    z-index:2;
+
+}
+.container img:hover
+{
+    cursor: pointer;
+}
+
+#baner
+{
+    width: 100%;
+    height:540px;
+    z-index:0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+
+.Napis{
+  display: flex;
+
+justify-content: center;
+
+  text-shadow: 0 0 5px #1d221f, 0 0 15px #0de46d, 0 0 20px #0de46d, 0 0 40px #0de46d, 0 0 60px #0de46d, 0 0 10px #0de46d, 0 0 98px #0de46d;
+
+
+  animation: blink 12s infinite;
+  -webkit-animation: blink 12s infinite;
+
+}
+
+.Napis {
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+    text-align: center;
+    position: absolute;
+    
+    margin: 0;
+    font-size: 5em;
+
+
+}
+  
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow: 0 0 5px #0de46d, 0 0 15px #0de46d, 0 0 20px #0de46d, 0 0 40px #0de46d, 0 0 60px #0de46d, 0 0 10px #0de46d, 0 0 98px #0de46d;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+
+    text-shadow: 0 0 5px #0de46d, 0 0 15px #0de46d, 0 0 20px #0de46d, 0 0 40px #0de46d, 0 0 60px #0de46d, 0 0 10px #0de46d, 0 0 98px #0de46d;
+    color: #fff6a9;
+  }
+}
+
+.napissection
+{
+    position: absolute;
+    left: 38%;
+    top: 200px;
+    
+}
+
+.box
+{
+  position: relative;
+  width: 250px;
+  height: 400px;
+  background: white;
+  z-index: 11;
+  transition: 0.5s;
+  margin-top: 160px;
+}
+.box::before
+{
+  content: '';
+  position:absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  transform: skewX(2deg) skewY(4deg) ;
+  background: linear-gradient(315deg,#0bff17,#0f4233,#66e8ff);
+}
+.box::after
+{
+  content: '';
+  position:absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  transform: skewX(2deg) skewY(4deg) ;
+  background: linear-gradient(315deg,#18f824,#0f4233,#66e8ff);
+  filter: blur(50px);
+}
+.box span
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: #0e1538;
+z-index: 6;
+text-align: center;
+
+}
+.box:hover
+{
+  cursor: pointer;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+  transform: scale(1.05,1.07);
+  transition-timing-function: ease-out;
+  transition-duration: 250ms;
+  -webkit-transform: scale(1.05,1.07);
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 250ms;
+  -moz-transform: scale(1.05,1.07);
+  -moz-transition-timing-function: ease-out;
+  -moz-transition-duration: 250ms;
+  vertical-align: center;
+}
+.Bed
+{
+  position: relative;
+  font-family: 'DAGGERSQUARE', sans-serif;
+  margin-top: -10%;  
+  left: 5%;
+}
+.Bed2
+{
+  
+  position: relative;
+  font-family: 'DAGGERSQUARE', sans-serif;
+  margin-top: 2%;  
+  left: 5%;
+
+
+}
+.Bed3
+{
+  position: relative;
+  font-family: 'DAGGERSQUARE', sans-serif;
+  margin-top: 3%;  
+  left: 5%;
+
+
+
+}
+
+.Witaj
+{
+
+
+color: rgb(255, 255, 255);
+width: 600px;
+font-size: 40px;
+font-family: 'Minecraft', sans-serif;
+                                                
+font-weight: bold;
+position: absolute;
+left: 35%;
+right: 35% !important;
+top: 340px;
+
+
+
+}
+
+
+
+
+
+.menu {
+  visibility: hidden;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 0;
+}
+
+
+
+.poprawianie
+{
+  top: -95%;
+  z-index: 5;
+  display: flex;
+  position: relative;
+  justify-content: right;
+}
+
+@media (max-width:972px) {
+
+
+.Bed
+{
+  position: relative;
+  
+  margin-top: -20%;  
+  left: 5%;
+}
+}
+@media (max-width:1357px  ) {
+
+  .Bed
+  {
+    position: relative;
+    
+    margin-top: -20%;  
+    left: 5%;
+  }
+
+
+}
+@media (min-width:1358px  ) {
+
+  .Bed
+  {
+    position: relative;
+    
+    margin-top: -10%;  
+    left: 5%;
+  }
+
+
+}
+
+@media (min-width:1600px  ) {
+
+  .Bed
+  {
+    position: relative;
+    
+    margin-top: -8%;  
+    left: 5%;
+    width: 300px;
+  }
+
+
+}
+
+
+@media (max-width:1341px  ) {
+
+  .Bed
+  {
+    position: relative;
+    
+    margin-top: -15%;  
+    left: 5%;
+  }
+
+
+}
+
+.row
+{
+  margin-left: -100px !important;
+}

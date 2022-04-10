@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Poradnik</title>
+        <link rel="stylesheet" href="most.css">
+        <link href="http://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+        
+        <link href="http://fonts.cdnfonts.com/css/daggersquare" rel="stylesheet">
+        
+
+
+        
+        
+        
+            <!--Navbar-->
+
+            <div id="navbar"></div>
+
+            <div id="nav" class="navbar-expand-lg">
+    
+                <div class="container">
+                    <a class="navbar-brand" href=""><img src="./assety/crafting.png" id="yes" width="60px" height="60px" alt="Kurwa" onmouseenter="redstoneblock()" onmouseleave="crafting()"></a>
+                </div>
+    
+    
+    
+                <div class="collapse navbar-collapse" id="main-navigation">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="container-xxl fw-bold text-secondary">
+                                <a href="#" class="nav-link yes1"><ion-icon name="log-in-outline" style="font-size:20px ;"></ion-icon>Rejestracja</a>  
+                                <a href="#" class="nav-link yes2"><ion-icon name="lock-open-outline" style="font-size:18px;"></ion-icon>Logowanie</a>  
+                            
+
+                        </li>
+           
+                    </ul>
+                </div>
+            </div>
+        </head>
+
+            <body>
+                <div class="Początek">
+                <h1 style=" margin-left: 40%;top: 30%; position: absolute;" >Budowanie mostow!</h1>
+                </div>  
+            <div class="Tekst">
+                <div class="yes"><h1>Mosty</h1></div>
+                <p>Nie kłamiąc w tej części nie ja będę omawiał poszczególne typy budowania się lecz podam film który pomorze wam to zrozumieć.
+                    Nie ja będę tłumaczyć ponieważ nie jestem w tej części profesjonalistą i umiem jedynie speebridge to reszty trzeba mieć lepsze wyjaśnienie.
+                    <iframe width="60%" height="400vh" src="https://www.youtube.com/embed/r2SeZwH7KE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </p>
+ 
+                
+
+                <div class="guziki">
+                <a href="index.html">Powrót</a>
+                <a href="Ochrona łóżka.html" >Kolejny</a>
+                </div>
+            </div>
+
+            <!--Tła-->
+            <div class="img"></div>
+  
+
+
+            </body>
+            
+            
+                    <!--Kiedy więcej niż 40 px zmienia sie przezroczystość-->
+                    <script>
+            
+
+                        window.onscroll = function() {scrollFunction()};
+                        document.getElementById("navbar").style.transition="0.5s";
+                        function scrollFunction() {
+                          if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
+                            document.getElementById("navbar").style.backgroundColor = "black";
+                            document.getElementById("navbar").style.opacity = "0.6";
+            
+                          } else {
+                            document.getElementById("navbar").style.backgroundColor="black";
+                            document.getElementById("navbar").style.opacity="0";
+                            
+                          }
+                        }
+                        </script>
+
+                    <script>
+                        function crafting()
+                        {
+                            document.getElementById('yes').src = "./assety/crafting.png";
+                        }
+                        function redstoneblock()
+                        {
+                            document.getElementById('yes').src = "./assety/redstoneblock.png";
+                        }
+                    </script> 
+
+                    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
